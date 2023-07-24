@@ -1,0 +1,248 @@
+* {
+    font-family: 'VT323', monospace;
+}
+
+body {
+    margin: 0;
+}
+
+header p {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    float: right;
+}
+
+
+#quizMe {
+    font-size: 45px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+  }
+
+
+#sideContainer {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+    display: none;
+  }
+
+#highScores {
+  justify-content: center;
+  }
+
+
+#highScores {
+    display: block;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+
+#timeContainer {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 18px;
+    max-width: 200px;
+    max-height: fit-content;
+    padding: 30px 40px;
+    display: flex;
+    float: right;
+  }
+
+#readyContainer {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+    display: block;
+  }
+
+#readyText {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+
+#readyButton {
+    background-image: linear-gradient(hsl(196, 49%, 24%), hsl(196, 65%, 23%));
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+#readyButton:hover {
+  cursor: pointer;
+  font-size: 28px;
+  }
+
+
+.questionContainer {
+    background-color: hsl(207, 15%, 88%);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: black;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 30px 40px;
+    display: none;
+    justify-content: center;
+  }
+
+#questionText {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+.choice-container {
+    background-color: hsl(196, 51%, 40%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 400px;
+    padding-bottom: 80px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 70px;
+  }
+
+.choice-container:hover {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+#scoreSubmitContainer {
+  background-color: hsl(207, 15%, 88%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: black;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 30px 40px;
+  display: none;
+  justify-content: center;
+}
+
+#scoreSubmitText {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#scoreLocation {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#form {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+#submitInitials {
+  background-image: linear-gradient(hsl(196, 49%, 24%), hsl(196, 65%, 23%));
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: white;
+  font-size: 15px;
+  max-width: 50px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#submitInitials:hover {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.wrong{
+  padding: 3px;
+
+}
+
+#againContainer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+  display: none;
+}
+
+#againText {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+#homeButton {
+  background-image: linear-gradient(hsl(196, 49%, 24%), hsl(196, 65%, 23%));
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#againButton {
+  background-image: linear-gradient(hsl(196, 49%, 24%), hsl(196, 65%, 23%));
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#againButton:hover {
+cursor: pointer;
+font-size: 28px;
+}
+
+#highScoresButtonTwo {
+  background-image: linear-gradient(hsl(268, 49%, 24%), hsl(269, 47%, 35%));
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#highScoresButtonTwo:hover {
+cursor: pointer;
+font-size: 28px;
+}

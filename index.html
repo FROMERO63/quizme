@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuwiz Me</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="quizMe">KUWIZ ME 👾
+        <p>The quiz to test your coding knowledge!</p>
+    </header>
+
+    <aside Id="sideContainer">
+        <h1 ID="highScores"> HIGH Scores
+            <div id="savedText">
+            <div id="highScoresText">
+            </div>
+            <button id ="homeButton" class="ready-button">Take Quiz</button>
+        </h1>
+    </aside>
+
+    <aside Id="timeContainer">
+        <h2 ID="timer"> Timer
+            <div id="timerFormat"> 60
+            </div>
+            <div id="currentScore">Current Score</div>
+            <div id="yourScore">
+        </h2>
+    </aside>
+
+    <section ID = "readyContainer">
+        <div id = "readyText">
+          Ready to Take the quiz?
+        </div>
+        <button id ="readyButton" class="ready-button">Take Quiz</button>
+    </section>
+
+    <section ID = "questionOne" class = "questionContainer">
+        <div id = "questionText">
+          What is a string in coding?
+        </div>
+        <button id="answerOneOne" type="button" class="choice-container" value="1">
+          <p class="answerOne">  A. data type used to represent text</p>
+        </button>
+        <button id="answerOneTwo" type="button" class="choice-container" value="2">
+          <p class="answerOne">  B. any character that's 0-9</p>
+        </button>
+        <button id="answerOneThree" type="button" class="choice-container" value="2">
+          <p class="answerOne">  C. a logical data type true or false</p>
+        </button>  
+          <button id="answerOneFour" type="button" class="choice-container" value="2">
+            <p class="answerOne">  D. material consisting of threads of cotton</p>
+          </button>
+    </section>
+
+    <section ID = "questionTwo" class = "questionContainer">
+      <div id = "questionText">
+        This is a boolean in coding?
+      </div>
+      <button id="answerTwoOne" type="button" class="choice-container" value="2">
+        <p class="answerTwo" value="false">  A. data type used to represent text</p>
+      </button>
+      <button id="answerTwoTwo" type="button" class="choice-container" value="1">
+        <p class="answerTwo" value="false">  B. a logical data type true or false</p>
+      </button>
+      <button id="answerTwoThree" type="button" class="choice-container" value="2">
+        <p class="answerTwo" value="true">  C. any character that's 0-9</p>
+      </button>  
+        <button id="answerTwoFour" type="button" class="choice-container" value="2">
+          <p class="answerTwo" value="false">  D. what a ghost says</p>
+        </button>
+  </section>
+
+  <section ID = "questionThree" class = "questionContainer">
+    <div id = "questionText">
+      What is a number data type in coding?
+    </div>
+    <button id="answerThreeOne" type="button" class="choice-container" value="2">
+      <p class="answerThree" value="false">  A. a logical data type true or false</p>
+    </button>
+    <button id="answerThreeTwo" type="button" class="choice-container" value="2">
+      <p class="answerThree" value="false">  B. letters from a-z</p>
+    </button>
+    <button id="answerThreeThree" type="button" class="choice-container" value="2">
+      <p class="answerThree" value="false">  C. a data type used to represent symbols</p>
+    </button>  
+      <button id="answerThreeFour" type="button" class="choice-container" value="1">
+        <p class="answerThree" value="true">  D. any character that's 0-9</p>
+      </button>
+  </section>
+
+  <section ID = "questionFour" class = "questionContainer">
+    <div id = "questionText">
+      What is a variable in coding?
+    </div>
+    <button id="answerFourOne" type="button" class="choice-container" value="2">
+      <p class="answerFour" value="false">  A. a logical data type of yes or no</p>
+    </button>
+    <button id="answerFourTwo" type="button" class="choice-container" value="2">
+      <p class="answerFour" value="false">  B. something that changes color</p>
+    </button>
+    <button id="answerFourThree" type="button" class="choice-container" value="1">
+      <p class="answerFour" value="true">  C. used to store information to be referenced & manipulated</p>
+    </button>  
+      <button id="answerFourFour" type="button" class="choice-container" value="2">
+        <p class="answerFour" value="false">  D. characters with the letter v</p>
+      </button>
+  </section>
+
+    <section ID = "scoreSubmitContainer">
+      <div id = "scoreSubmitText">
+        Enter Initials
+      </div>
+      <p id="scoreLocation"></p>
+      <form  id="form" method="post">
+        <input ID="field" type="text" name="fname" required maxlength="3" minlength="1">
+        <input ID="submitInitials" type="submit" value="Submit">
+      </form>
+  </section>
+
+  <section ID = "againContainer">
+    <div id = "againText">
+      Congratulations!
+    </div>
+    <button id ="againButton" class="again-button">Return Home</button>
+    <button id ="highScoresButtonTwo" class="again-button">High Scores</button>
+  </section>
+</section>
+    <script src="./assets/script.js"></script>
+  
+</body>
+</html>
